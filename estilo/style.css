@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'menu';
+    src: url('/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --fonte-menu:'menu', sans-serif;
+}
+
+
+body{
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(89, 219, 29));
+    
+}
+
+main{
+    background-color: rgba(58, 55, 55, 0.781);
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    width: 350px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    border: 2px rgb(0, 255, 0);
+    border-style: groove;
+    min-width: 220px;
+    max-width: 400px;
+    
+}
+
+h1{
+    font-weight: 550;
+    color: rgba(255, 255, 255, 0.932);
+    text-shadow: 2px 2px 2px black;
+    font-size: 1.2em;
+    font-family: var(--fonte-menu);
+    
+}
+
+h3{
+    font-family: var(--fonte-menu);
+    font-size: 0.9em;
+    color: rgb(46, 199, 46);
+    text-shadow: 2px 2px 2px black;
+}
+
+h4{
+    font-family: monospace;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 15px;
+    font-size: 1.00em;
+}
+
+
+
+
+    
+
+
+main a#git{
+    background-color: rgba(88, 86, 86, 0.582);
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+    transition: all;
+}
+
+main a#git:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+a#git:hover{
+    background-color: rgb(32, 196, 32);
+}
+
+main a#linkedin{
+    background-color: rgba(88, 86, 86, 0.582);
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+}
+
+a#linkedin:hover{
+    background-color: rgb(32, 196, 32);
+}
+
+main a#linkedin:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    box-shadow: 5px 5px 4px black;
+}
+
+main a#instagram{
+    background-color: rgba(88, 86, 86, 0.582);
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+}
+
+a#instagram:hover{
+    background-color: rgb(32, 196, 32);
+}
+
+main a#instagram:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+main a#projetos{
+    background-color: rgba(88, 86, 86, 0.582);
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
+    margin-bottom: 15px;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+}
+
+a#projetos:hover{
+    background-color: rgb(32, 196, 32);
+}
+
+main a#projetos:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+    text-shadow: none;
+    font-weight: 800;
+}
+
+
+
+nav a{
+    font-size: 0.95em;
+    font-family:var(--fonte-menu);
+    color: white;
+    box-shadow: 2px 2px 2px rgb(93, 228, 15);
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px black;
+
+}
