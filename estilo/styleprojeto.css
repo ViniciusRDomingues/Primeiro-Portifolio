@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+    background: linear-gradient(to left, black, rgb(71, 212, 71));
+}
+
+h2{
+    text-align: center;
+}
+
+nav.projeto{
+    display: inline-flex;
+    border: 3px solid rgb(20, 221, 37);
+    border-radius: 15px;
+    box-shadow: 3px 4px 1px black;
+    width: 225px;
+    height: 225px;
+
+
+}
+
+nav.projeto#p1{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    
+   
+    
+}
+
+nav.projeto#p2{
+    position: absolute;
+    top: 20%;
+    right: 43%;
+     
+    
+}
+
+nav.projeto#p3{
+    float: right;
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    
+    
+    
+
+}
+
